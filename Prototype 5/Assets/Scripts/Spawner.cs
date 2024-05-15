@@ -17,10 +17,7 @@ public class Spawner : MonoBehaviour
     public int score;
     public GameObject gameOverScreen;
 
-    private void Awake()
-    {
-        Cursor.C
-    }
+    
     void Start()
     {
         instance = this;
